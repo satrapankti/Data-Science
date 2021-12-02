@@ -5,7 +5,7 @@ from pickle import dump
 from pickle import load
 import pickle
 
-claimants = pd.read_csv("claimants.csv")
+claimants = pd.read_csv("15.claimants.csv")
 claimants.drop(["CASENUM"],inplace=True,axis = 1)
 claimants = claimants.dropna()
 
@@ -15,9 +15,9 @@ model = LogisticRegression()
 model.fit(X,Y)
 
 # save the model to disk
-dump(model, open('Logistic_Model.sav', 'wb'))
+dump(model, open('15.Logistic_Model.sav', 'wb'))
 
 # load the model from disk
-loaded_model = load(open('Logistic_Model.sav', 'rb'))
+loaded_model = load(open('15.Logistic_Model.sav', 'rb'))
 result = loaded_model.score(X, Y)
 print(result)
