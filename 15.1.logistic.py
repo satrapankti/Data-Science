@@ -30,7 +30,7 @@ df = user_input_features()
 st.subheader('User Input parameters')
 st.write(df)
 
-claimants = pd.read_csv("claimants.csv")
+claimants = pd.read_csv("15.claimants.csv")
 claimants.drop(["CASENUM"],inplace=True,axis = 1)
 claimants = claimants.dropna()
 
