@@ -8,15 +8,15 @@ Balance		 	  NUMBER 		 8		  	Raw		      Number of miles eligible for award trave
 Qual_miles		  NUMBER	         8		  	Raw		      Number of miles counted as qualifying for Topflight status
 cc1_miles		  CHAR		         1		  	Raw		      Number of miles earned with freq. flyer credit card in the past 12 months:
 cc2_miles		  CHAR		         1		  	Raw		      Number of miles earned with Rewards credit card in the past 12 months:
-cc3_miles		  CHAR		         1		  	Raw		    Number of miles earned with Small Business credit card in the past 12 months:
+cc3_miles		  CHAR		         1		  	Raw		      Number of miles earned with Small Business credit card in the past 12 months:
 note:  miles bins:									      1 = under 5,000
 									 		      2 = 5,000 - 10,000
 											      3 = 10,001 - 25,000
 											      4 = 25,001 - 50,000
 											      5 = over 50,000
-Bonus_miles		  NUMBER				         Raw		  Number of miles earned from non-flight bonus transactions in the past 12 months
-Bonus_trans		  NUMBER					 Raw		  Number of non-flight bonus transactions in the past 12 months
-Flight_miles_12mo	  NUMBER					 Raw		  Number of flight miles in the past 12 months
-Flight_trans_12	          NUMBER					 Raw		  Number of flight transactions in the past 12 months
-Days_since_enroll	  NUMBER					 Telcom		  Number of days since Enroll_date
-Award?		          NUMBER					 Telcom		  Dummy variable for Last_award (1=not null, 0=null)
+Bonus_miles		  NUMBER				         Raw		      Number of miles earned from non-flight bonus transactions in the past 12 months
+Bonus_trans		  NUMBER					 Raw		      Number of non-flight bonus transactions in the past 12 months
+Flight_miles_12mo	  NUMBER					 Raw		      Number of flight miles in the past 12 months
+Flight_trans_12	          NUMBER					 Raw		      Number of flight transactions in the past 12 months
+Days_since_enroll	  NUMBER					 Telcom		      Number of days since Enroll_date
+Award?		          NUMBER					 Telcom		      Dummy variable for Last_award (1=not null, 0=null)
